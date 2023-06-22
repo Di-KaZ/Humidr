@@ -53,7 +53,7 @@ function getDataGraph(
     },
     yAxis: {
       title: {
-        text: "Degrée Celsius",
+        text: name(),
       },
     },
     series: [normalize(key, uuid)],
